@@ -46,8 +46,8 @@ public class Product {
   @Column(name="active")
   private boolean active;
 
-  @Column(name="unit_in_stock")
-  private int unitInStock;
+  @Column(name="units_in_stock")
+  private int unitsInStock;
 
   @Column(name="date_created")
   @CreationTimestamp               // a Hibernate automatikusan kezeli a dátumozást
